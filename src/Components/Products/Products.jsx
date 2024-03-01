@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Loading from '../Loading/Loading';
 import Product from '../Product/Product';
 import { baseURL } from '../BaseURL/BaseUrl';
+import { Helmet } from 'react-helmet';
 
 export default function Products() {
   let [loading,setLoading]=useState(true)
@@ -25,7 +26,9 @@ if(loading) return <Loading/>
 return (
 
   <>
-  
+  <Helmet>
+  <title>Products</title>
+  </Helmet>
   
 
     <div className='container pt-5 my-5'>

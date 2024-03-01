@@ -4,17 +4,13 @@ import Products from '../Products/Products'
 import HomeCategory from '../HomeCategory/HomeCategory'
 import img2 from '../../images/slider-image-2.jpeg'
 import img3 from '../../images/slider-image-3.jpeg'
-import { Helmet } from 'react-helmet'
-
 export default function Home() {
 
 
 
   return (
     <>
-  <Helmet>
-  <title>Home</title>
-</Helmet>
+  
 
     <div className='mt-5 py-5'>
       <div className="container">
